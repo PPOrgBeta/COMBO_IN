@@ -1,6 +1,8 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
+    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_File_Validation_Logging",
+    "job_name": "Base_File_Validation_Logging",
     "link_map": {
         "link470": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
@@ -2113,5 +2115,6 @@
                 "view_serial": 101
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }

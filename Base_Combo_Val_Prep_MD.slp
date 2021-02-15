@@ -1,6 +1,8 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
+    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Combo_Val_Prep_MD",
+    "job_name": "Base_Combo_Val_Prep_MD",
     "link_map": {
         "link116": {
             "dst_id": "11111111-1111-1111-1111-00000000001f",
@@ -6291,5 +6293,6 @@
                 "view_serial": 101
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }

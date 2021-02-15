@@ -1,6 +1,8 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
+    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Import_Combo_JSON",
+    "job_name": "Base_Import_Combo_JSON",
     "link_map": {
         "link330": {
             "dst_id": "11111111-1111-1111-1111-00000000001c",
@@ -63,7 +65,7 @@
             "src_view_id": "output1"
         },
         "link347": {
-            "dst_id": "11111111-1111-1111-1111-00000000000e",
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
             "dst_view_id": "input1",
             "src_id": "11111111-1111-1111-1111-00000000001e",
             "src_view_id": "output103"
@@ -87,7 +89,7 @@
             "src_view_id": "output1"
         },
         "link352": {
-            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_id": "11111111-1111-1111-1111-00000000000e",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000007",
             "src_view_id": "output0"
@@ -95,7 +97,7 @@
         "link361": {
             "dst_id": "11111111-1111-1111-1111-00000000001d",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000e",
+            "src_id": "11111111-1111-1111-1111-00000000000f",
             "src_view_id": "output0"
         },
         "link362": {
@@ -105,7 +107,7 @@
             "src_view_id": "output0"
         },
         "link364": {
-            "dst_id": "11111111-1111-1111-1111-00000000000e",
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000011",
             "src_view_id": "output0"
@@ -117,7 +119,7 @@
             "src_view_id": "output101"
         },
         "link366": {
-            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_id": "11111111-1111-1111-1111-00000000000e",
             "dst_view_id": "input1",
             "src_id": "11111111-1111-1111-1111-00000000001e",
             "src_view_id": "output113"
@@ -143,7 +145,7 @@
         "link386": {
             "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000f",
+            "src_id": "11111111-1111-1111-1111-00000000000e",
             "src_view_id": "output0"
         },
         "link387": {
@@ -986,8 +988,8 @@
             },
             "11111111-1111-1111-1111-00000000000e": {
                 "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 17,
+                "grid_x_int": 16,
+                "grid_y_int": 12,
                 "index": null,
                 "input": {
                     "input1": {
@@ -1004,8 +1006,8 @@
             },
             "11111111-1111-1111-1111-00000000000f": {
                 "error": {},
-                "grid_x_int": 16,
-                "grid_y_int": 12,
+                "grid_x_int": 8,
+                "grid_y_int": 17,
                 "index": null,
                 "input": {
                     "input1": {
@@ -4385,5 +4387,6 @@
                 "view_serial": 101
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }

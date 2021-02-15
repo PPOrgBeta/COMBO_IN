@@ -1,6 +1,8 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
+    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Import_Combo_File",
+    "job_name": "Base_Import_Combo_File",
     "link_map": {
         "link315": {
             "dst_id": "11111111-1111-1111-1111-000000000017",
@@ -5785,5 +5787,6 @@
                 "view_serial": 101
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }
