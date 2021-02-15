@@ -1712,6 +1712,17 @@
                             },
                             {
                                 "constraint": {
+                                    "value": "Required"
+                                },
+                                "constraintValue": {
+                                    "value": "no"
+                                },
+                                "sourcePath": {
+                                    "value": "$company"
+                                }
+                            },
+                            {
+                                "constraint": {
                                     "value": "MaxLength"
                                 },
                                 "constraintValue": {
@@ -1723,13 +1734,7 @@
                             }
                         ]
                     },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
                     "standardizeErrorOutput": {
-                        "value": false
-                    },
-                    "validateJsonPath": {
                         "value": false
                     }
                 },
@@ -3108,6 +3113,9 @@
                     }
                 },
                 "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
                     "includeParents": {
                         "value": false
                     },
@@ -3118,7 +3126,7 @@
                         "value": false
                     },
                     "path": {
-                        "value": "$gathering"
+                        "value": "$records"
                     }
                 },
                 "view_serial": 100
