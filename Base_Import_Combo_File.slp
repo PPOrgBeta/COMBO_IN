@@ -281,7 +281,7 @@
             "src_view_id": "output0"
         },
         "link387": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-00000000000f",
             "src_view_id": "output0"
@@ -323,7 +323,7 @@
             "src_view_id": "error0"
         },
         "link408": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_id": "11111111-1111-1111-1111-000000000000",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000023",
             "src_view_id": "output1"
@@ -367,7 +367,7 @@
         },
         "info": {
             "author": {
-                "value": "willis.diebel@powerplan.com"
+                "value": ""
             },
             "label": {},
             "notes": {
@@ -470,7 +470,7 @@
                             "value": true
                         },
                         "value": {
-                            "value": "QADB02D"
+                            "value": "PP_Oracle"
                         }
                     },
                     {
@@ -541,66 +541,6 @@
                             "value": "string"
                         },
                         "description": {
-                            "value": "Indicates the delimiter for TXT file type, if different from tab."
-                        },
-                        "key": {
-                            "value": "fileDelimiter"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "Controls if new element values are created automatically. No (default) or Yes."
-                        },
-                        "key": {
-                            "value": "createElements"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "Yes (default); auto-create missing currency records   No; do not create missing currency records; report validation error."
-                        },
-                        "key": {
-                            "value": "createCurrency"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
                             "value": "Controls if the master element data is deleted before loading new data. No (default); records will be added or updated. Yes; records will be added, updated or deleted so Master Element table matches file exactly after the run."
                         },
                         "key": {
@@ -621,186 +561,6 @@
                             "value": "string"
                         },
                         "description": {
-                            "value": "The Import Template Name to use for adding new Lessor records. Required when adding Lessor data."
-                        },
-                        "key": {
-                            "value": "lessorImportTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "The Import Template Name to use for adding new MLA records. Required when adding MLA data."
-                        },
-                        "key": {
-                            "value": "mlaImportTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "The Import Template Name to use for adding new ILR records. Required when adding ILR data."
-                        },
-                        "key": {
-                            "value": "ilrImportTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "The Import Template Name to use for adding new Leased Asset records. Required when adding Asset data."
-                        },
-                        "key": {
-                            "value": "assetImportTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": "The Import Template Name to use for adding new Invoice records. Required when adding Invoice data."
-                        },
-                        "key": {
-                            "value": "invoiceImportTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "assetRetireTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "ilrRevisionTemplate"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "pathA"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": "C:\\\\opt\\\\snaplogic\\\\Instances\\\\"
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "pathB"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": "\\\\Interfaces\\\\bin\\\\"
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
                             "value": null
                         },
                         "key": {
@@ -810,27 +570,7 @@
                             "value": false
                         },
                         "value": {
-                            "value": "Testing"
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "cr_source"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
+                            "value": "Regression"
                         }
                     },
                     {
@@ -864,46 +604,6 @@
                             "value": null
                         },
                         "key": {
-                            "value": "amount_type"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": null
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
-                            "value": "bat_file"
-                        },
-                        "required": {
-                            "value": false
-                        },
-                        "value": {
-                            "value": "ppexe_batch.bat"
-                        }
-                    },
-                    {
-                        "capture": {
-                            "value": true
-                        },
-                        "data_type": {
-                            "value": "string"
-                        },
-                        "description": {
-                            "value": null
-                        },
-                        "key": {
                             "value": "env"
                         },
                         "required": {
@@ -911,6 +611,46 @@
                         },
                         "value": {
                             "value": "Test"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "fileDelimiter"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": null
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": true
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "createElements"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": null
                         }
                     }
                 ]
@@ -922,8 +662,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 25,
-                "grid_y_int": 1,
+                "grid_x_int": 23,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -934,8 +674,8 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 23,
-                "grid_y_int": 2,
+                "grid_x_int": 25,
+                "grid_y_int": 1,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -2204,128 +1944,11 @@
                             },
                             {
                                 "paramName": {
-                                    "value": "lessorImportTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_lessorImportTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "mlaImportTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_mlaImportTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "ilrImportTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_ilrImportTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "assetImportTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_assetImportTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "invoiceImportTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_invoiceImportTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "createElements"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_createElements?_createElements:\"No\""
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "createCurrency"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_createCurrency?_createCurrency:\"Yes\""
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "fullRefresh"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_fullRefresh?_fullRefresh:\"No\""
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "ilrRevisionTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_ilrRevisionTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "assetRetireTemplate"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_assetRetireTemplate"
-                                }
-                            },
-                            {
-                                "paramName": {
                                     "value": "calledFromCombos"
                                 },
                                 "paramValue": {
                                     "expression": true,
                                     "value": "\"FALSE\""
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "pathA"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_pathA"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "pathB"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_pathB"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "executable"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_bat_file + \" \" + $EXECUTABLE_FILE"
                                 }
                             },
                             {
@@ -2348,29 +1971,29 @@
                             },
                             {
                                 "paramName": {
-                                    "value": "amount_type"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_amount_type"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "source_name"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "_cr_source"
-                                }
-                            },
-                            {
-                                "paramName": {
                                     "value": "env"
                                 },
                                 "paramValue": {
                                     "expression": true,
                                     "value": "_env"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "fullRefresh"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_fullRefresh?_fullRefresh:\"No\""
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "createElements"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_createElements?_createElements:\"No\""
                                 }
                             }
                         ]
